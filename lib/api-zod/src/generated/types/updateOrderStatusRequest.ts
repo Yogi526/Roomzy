@@ -5,7 +5,8 @@
  * StayBook Room Booking API
  * OpenAPI spec version: 0.1.0
  */
+import type { OrderStatus } from "./orderStatus";
 
-export interface HealthStatus {
-  status: string;
+export interface UpdateOrderStatusRequest {
+  status: OrderStatus;
 }

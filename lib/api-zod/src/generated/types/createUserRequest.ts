@@ -5,7 +5,10 @@
  * StayBook Room Booking API
  * OpenAPI spec version: 0.1.0
  */
+import type { UserRole } from "./userRole";
 
-export interface HealthStatus {
-  status: string;
+export interface CreateUserRequest {
+  name: string;
+  phone: string;
+  role: UserRole;
 }
