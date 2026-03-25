@@ -85,7 +85,7 @@ export default function ProfileScreen() {
         <Text style={styles.logoutText}>Log Out</Text>
       </TouchableOpacity>
 
-      <Text style={styles.footer}>StayBook · Connect. Book. Stay.</Text>
+      <Text style={styles.footer}>Roomzy · Connect. Book. Stay.</Text>
     </ScrollView>
   );
 }

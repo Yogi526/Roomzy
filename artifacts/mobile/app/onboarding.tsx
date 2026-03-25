@@ -79,7 +79,7 @@ export default function OnboardingScreen() {
             <View style={styles.logoCircle}>
               <MaterialCommunityIcons name="home-city" size={56} color={C.tint} />
             </View>
-            <Text style={styles.appName}>StayBook</Text>
+            <Text style={styles.appName}>Roomzy</Text>
             <Text style={styles.tagline}>Book rooms for hours or days.{"\n"}Connect with owners instantly.</Text>
             <TouchableOpacity style={styles.primaryBtn} onPress={handleContinue}>
               <Text style={styles.primaryBtnText}>Get Started</Text>
