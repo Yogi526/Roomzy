@@ -13,8 +13,8 @@
         },
         "production": {
             "autoIncrement": true,
-            "config": {
-                "pnpmVersion": "latest"
+            "env": {
+                "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
             }
         }
     },
